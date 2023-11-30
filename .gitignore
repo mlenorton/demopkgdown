@@ -4,3 +4,5 @@
 .httr-oauth
 .DS_Store
 .quarto
+docs
+my_notes_for_demo_113023.Rmd
