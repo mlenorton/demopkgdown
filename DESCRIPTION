@@ -1,6 +1,6 @@
 Package: demopkgdown
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 1.0
 Authors@R: 
     person("Emily", "Norton", , "enorton7@jhu.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
