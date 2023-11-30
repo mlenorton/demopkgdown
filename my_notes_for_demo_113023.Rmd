@@ -1,0 +1,28 @@
+---
+title: "Untitled"
+author: "Emily Norton"
+date: "2023-11-30"
+output: html_document
+---
+
+```{r}
+
+#initialize package
+usethis::create_package()
+
+# initialize git
+use_this::use_git()
+
+
+# Instructions here: https://pkgdown.r-lib.org/articles/pkgdown.html
+# Run once to configure package to use pkgdown - get new _pkgdown.yml to format website 
+usethis::use_pkgdown()
+
+# Run to build the website
+pkgdown::build_site()
+
+
+#
+usethis::use_github()
+
+```
