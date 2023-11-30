@@ -22,7 +22,14 @@ usethis::use_pkgdown()
 pkgdown::build_site()
 
 
-#
+# 
 usethis::use_github()
+
+
+# if this doesn't work, can use:
+gh repo create # and then select options by arrow-ing through
+
+
+pkgdown::deploy_to_branch()
 
 ```
